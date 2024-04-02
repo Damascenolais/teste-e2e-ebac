@@ -63,35 +63,6 @@ describe('Exercicio - Ponta a ponta', () => {
         /// finalizar compra
         cy.get('#place_order').click()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     });
 
 
