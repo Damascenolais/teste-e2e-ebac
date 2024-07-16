@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="cypress"/>
 import { faker } from '@faker-js/faker';
 
 describe('Exercicio - Ponta a ponta', () => {
@@ -65,5 +65,8 @@ describe('Exercicio - Ponta a ponta', () => {
 
     });
 
+    it('Deve completar o cadastro com sucesso - usando comando customizado' , () => {
+        cy.preCadastro(faker.internet.email(), faker.internet.password(), faker.person.firstName(), faker.person.lastName()  )
+    })
 
 })
